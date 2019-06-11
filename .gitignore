@@ -3,6 +3,7 @@ node_modules/
 someOtherfoler/
 bin/
 obj/
+Migrations/
 
 # Compiled source #
 ###################
