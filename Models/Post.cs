@@ -12,6 +12,6 @@ namespace Blog.Models
 
         public String content {get; set;}
 
-        public ICollection<Tag> Tags {get; set;}
+        public ICollection<Tag> tags {get; set;}
     }
 }
