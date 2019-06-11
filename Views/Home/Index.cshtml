@@ -1,0 +1,15 @@
+﻿@model IEnumerable<Blog.Models.Post>;
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@foreach (var item in Model) {
+        <div>
+            <h2>
+                @Html.DisplayFor(modelItem => item.title)
+            </h2>
+            <p>
+                <markdown>@item.content</markdown>
+            </p>
+        </div>
+}
